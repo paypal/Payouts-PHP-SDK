@@ -102,7 +102,7 @@ You may use the client id and secret above for demonstration purposes.
 
 ## Samples
 
-You can start off by trying out [Payouts-PHP-SDK/samples]().
+You can start off by trying out [Samples](Payouts-PHP-SDK/samples).
 
 Note: Update the `PayPalClient.php` with your sandbox client credentials or pass your client credentials as environment variable while executing the samples.
 
