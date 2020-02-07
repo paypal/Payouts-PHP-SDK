@@ -94,7 +94,7 @@ To run integration tests using your client id and secret, clone this repository 
 
 ```sh
 $ composer install
-$ CLIENT_ID=YOUR_SANDBOX_CLIENT_ID CLIENT_SECRET=OUR_SANDBOX_CLIENT_SECRET composer integration
+$ CLIENT_ID=YOUR_SANDBOX_CLIENT_ID CLIENT_SECRET=OUR_SANDBOX_CLIENT_SECRET composer unit
 ```
 
 You may use the client id and secret above for demonstration purposes.
