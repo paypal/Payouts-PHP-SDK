@@ -94,7 +94,7 @@ To run integration tests using your client id and secret, clone this repository 
 
 ```sh
 $ composer install
-$ CLIENT_ID=YOUR_SANDBOX_CLIENT_ID CLIENT_SECRET=OUR_SANDBOX_CLIENT_SECRET composer integration
+$ CLIENT_ID=YOUR_SANDBOX_CLIENT_ID CLIENT_SECRET=OUR_SANDBOX_CLIENT_SECRET composer unit
 ```
 
 You may use the client id and secret above for demonstration purposes.
@@ -102,7 +102,7 @@ You may use the client id and secret above for demonstration purposes.
 
 ## Samples
 
-You can start off by trying out [Payouts-PHP-SDK/samples]().
+You can start off by trying out [Samples](/samples).
 
 Note: Update the `PayPalClient.php` with your sandbox client credentials or pass your client credentials as environment variable while executing the samples.
 
