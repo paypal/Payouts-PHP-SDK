@@ -1,5 +1,5 @@
 {
-    "name": "paypal/paypalpayoutssdk",
+    "name": "paypal/paypal-payouts-sdk",
     "description": "PayPal's PHP SDK for Payouts REST APIs",
     "keywords": ["paypal", "payouts", "rest", "sdk"],
     "type": "library",
