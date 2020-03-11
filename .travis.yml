@@ -1,5 +1,5 @@
 sudo: required
-dist: precise
+dist: trusty
 language: php
 php:
 - 5.6
