@@ -85,6 +85,20 @@ This will retrieve a payouts batch
  $request = new PayoutsGetRequest($batchId);
  $response = $client->execute($request);
  echo json_encode($response->result, JSON_PRETTY_PRINT), "\n";
+```
+
+### Parsing Failure Response
+This will execute a Get request to simulate a failure
+```PHP
+ try{
+    $request = new PayoutsGetRequest(null);
+    $response = $client->execute($request);
+    echo json_encode($response->result, JSON_PRETTY_PRINT), "\n";
+  } catch(HttpException $e){
+    echo $e->getMessage()
+    var_dump(json_decode($e->getMessage()));
+
+  }
 
 
 ```
