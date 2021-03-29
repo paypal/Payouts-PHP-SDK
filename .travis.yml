@@ -7,7 +7,7 @@ php:
 - 7.1
 - 7.2
 - 7.3
-- hhvm-4.102
+- hhvm
 before_script:
 - composer self-update
 - composer install
