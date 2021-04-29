@@ -51,9 +51,9 @@ class PayoutsPostTest extends TestCase
       
         $client = TestHarness::client();
         $response = self::create($client);
-        print('PayoutsPostTest')
-        print($response->statusCode)
-        print($response->result)
+        print 'PayoutsPostTest'
+        print $response->statusCode
+        print $response->result
         $this->assertEquals(201, $response->statusCode);
         $this->assertNotNull($response->result);
 
