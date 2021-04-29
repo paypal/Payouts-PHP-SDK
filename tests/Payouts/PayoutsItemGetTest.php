@@ -22,6 +22,7 @@ class PayoutsItemGetTest extends TestCase
         print "PayoutsItemGetTest";
         print $response->statusCode . "\n";
 //         print $response->result . "\n";
+        echo json_encode($response->result, JSON_PRETTY_PRINT), "\n";
         $this->assertEquals(200, $response->statusCode);
         $this->assertNotNull($response->result);
 

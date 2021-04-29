@@ -53,6 +53,7 @@ class PayoutsPostTest extends TestCase
         $response = self::create($client);
         print "PayoutsPostTest";
         print $response->statusCode . "\n";
+        echo json_encode($response->result, JSON_PRETTY_PRINT), "\n";
 //         print $response->result . "\n";
         $this->assertEquals(201, $response->statusCode);
         $this->assertNotNull($response->result);
