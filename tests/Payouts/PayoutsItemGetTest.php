@@ -21,7 +21,7 @@ class PayoutsItemGetTest extends TestCase
         $response = $client->execute($request);
         print "PayoutsItemGetTest";
         print $response->statusCode . "\n";
-        print $response->result . "\n";
+//         print $response->result . "\n";
         $this->assertEquals(200, $response->statusCode);
         $this->assertNotNull($response->result);
 

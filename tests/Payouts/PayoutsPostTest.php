@@ -53,7 +53,7 @@ class PayoutsPostTest extends TestCase
         $response = self::create($client);
         print "PayoutsPostTest";
         print $response->statusCode . "\n";
-        print $response->result . "\n";
+//         print $response->result . "\n";
         $this->assertEquals(201, $response->statusCode);
         $this->assertNotNull($response->result);
 
