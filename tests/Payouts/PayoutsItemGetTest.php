@@ -20,8 +20,8 @@ class PayoutsItemGetTest extends TestCase
         $client = TestHarness::client();
         $response = $client->execute($request);
         print "PayoutsItemGetTest";
-        print $response.statusCode;
-        print $response.result;
+        print $response->statusCode . "\n";
+        print $response->result . "\n";
         $this->assertEquals(200, $response->statusCode);
         $this->assertNotNull($response->result);
 
