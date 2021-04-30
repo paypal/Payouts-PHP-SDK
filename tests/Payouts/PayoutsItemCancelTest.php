@@ -28,7 +28,7 @@ class PayoutsItemCancelTest extends TestCase
         print "PayoutsItemCancelTest";
         print $response->statusCode . "\n";
 //         print $response->result . "\n";
-        echo json_encode($response->result, JSON_PRETTY_PRINT), "\n";
+        echo json_encode($response, JSON_PRETTY_PRINT), "\n";
         $this->assertEquals(200, $response->statusCode);
         $this->assertNotNull($response->result);
 
