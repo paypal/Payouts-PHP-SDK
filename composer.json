@@ -6,7 +6,7 @@
     "license": "MIT",
     "homepage": "http://github.com/paypal/PAYOUTS-PHP-SDK/",
     "require": {
-        "paypal/paypalhttp": "~1.0.0"
+        "paypal/paypalhttp": "~1.0.1"
     },
     "authors": [
         {
