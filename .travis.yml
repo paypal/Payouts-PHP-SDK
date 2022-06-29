@@ -11,4 +11,4 @@ before_script:
 - composer self-update
 - composer install
 script:
-- CLIENT_ID=AdV4d6nLHabWLyemrw4BKdO9LjcnioNIOgoz7vD611ObbDUL0kJQfzrdhXEBwnH8QmV-7XZjvjRWn0kg CLIENT_SECRET=EPKoPC_haZMTq5uM9WXuzoxUVdgzVqHyD5avCyVC1NCIUJeVaNNUZMnzduYIqrdw-carG9LBAizFGMyK composer unit
+- CLIENT_ID=YOUR_SANDBOX_CLIENT_ID CLIENT_SECRET=YOUR_SANDBOX_CLIENT_SECRET composer unit
