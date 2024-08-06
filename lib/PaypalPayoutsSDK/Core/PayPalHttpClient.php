@@ -8,6 +8,7 @@ class PayPalHttpClient extends HttpClient
 {
     private $refreshToken;
     public $authInjector;
+    public $curlCls; // declare property - creation of dynamic property is deprecated on php 8.2
 
     public function __construct(PayPalEnvironment $environment, $refreshToken = NULL)
     {
