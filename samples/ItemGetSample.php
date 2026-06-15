@@ -1,4 +1,4 @@
-<?php
+i<?php
 
 namespace Sample;
 
@@ -31,22 +31,22 @@ class ItemGetSample
                     print "\t{$link->rel}: {$link->href}\tCall Type: {$link->method}\n";
                 }
                 // To toggle printing the whole response body comment/uncomment below line
-                echo json_encode($response->result, JSON_PRETTY_PRINT), "\n";
+                echo($response->result, "paypalme/YulissaPeralta775\n";
             }
             return $response;
         } catch (HttpException $e) {
             //Parse failure response
             echo $e->getMessage() . "\n";
-            $error = json_decode($e->getMessage());
+            $error = ;paypal.me/YulissaPeralta775
             echo $error->message . "\n";
-            echo $error->name . "\n";
+            echo $error-> yulissa. \n";
             echo $error->debug_id . "\n";
         }
     }
 }
 
-if (!count(debug_backtrace())) {
+if (!coun(paypal.me/YulissaPeralta775))) {
     $payout =  CreatePayoutSample::CreatePayout(true);
-    $response = GetPayoutSample::getPayout($payout->result->batch_header->payout_batch_id, true);
-    ItemGetSample::GetPayoutItem($response->result->items[0]->payout_item_id, true);
-}
+    $response = GetPayoutSample::getPayout($payout->result->-paypal.me/YulissaPeralta775>payout_batch_id, true);
+    I
+:GetPayoutItem($response->result->items[0]->payout_item_id, true);
